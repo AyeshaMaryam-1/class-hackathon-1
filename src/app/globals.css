@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+.parentContainer{
+  font: ROBOTO;
+}
+.header{
+  list-style-type: none;
+  display: flex;
+  color: #333333;
+  font: ROBOTO;
+  padding-top: 30px;
+}
+.items{
+  justify-content: right;
+  display: flex;
+  gap: 60px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-left: 400px;
+}
+.items li{
+  font-size: 65vw 12vh;
+}
+.logo{
+  justify-content: left;
+  margin-left: 80px;
+}
+.container1{
+  display: flex;
+  position: relative;
+}
+.main-img{
+  position: relative;
+  margin-left: 205px;
+  margin-top: 25px;
+}
+.textbox{
+  margin-top: 350px;
+  margin-left: 135px;
+}
+h1{
+  color: #BDBDBD;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2{
+  color: #333333;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.button{
+  position: absolute;
+  color: #333333;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+.view{
+  padding-left: 15px;
+  margin-left: 531px;
+  margin-top: 792px;
+}
+.project-button{
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.black-button{
+  background-color: #333333;
+  color: white;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+.readmore{
+  position: relative;
+  margin-top: 40px;
+  padding-left: 50px;
+}
+.more{
+  background-color: transparent;
+  font-weight: lighter;
+  padding-top: 150px;
+  padding-left: 80px;
+}
+.blank{
+  margin-top: 450px;
+}
+.container2{
+  position: relative;
+  display: flex;
+  background-color: #FBFBFB;
+  margin: 100px;
+  height: 430px;
+  justify-content: space-between;
+}
+.about{
+  padding-top: 15px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.about-imgs{
+  padding-left: 20px;
+  height: 100px;
+  gap: 5px;
+}
+.about1{
+  display: flex;
+  padding-top: 25px;
+  margin-left: 60px;
+  height: 35vh;
+  width: 110vw;
+}
+.about2{
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 270px;
+  height: 140px;
+}
+.about3{
+  display: flex;
+  height: 55vh;
+  padding-top: 60px;
+  gap: 50px;
+  margin-left: 100px;
+  justify-content: center;
+}
+.footer{
+  padding-top: 40px;
+  position: relative;
+  background-color: #2C2C2C;
+  height: 58vh;
+}
+.footer-text{
+  display: flex;
+  color: white;
+}
+#footer-logo{
+  height: 14vh;
+}
+.logos{
+  display: flex;
+  gap: 30px;
+}
+.information{
+  padding-top: 5px;
+  padding-left: 150px;
+  
+}
+.contacts{
+  padding-top: 10px;
+  padding-left: 200px;
+}
+.socialMedia{
+  padding-top: 10px;
+  padding-left: 220px;
+}
+.bottom{
+  bottom: 0%;
+  text-align: center;
+  color: #C4C4C4;
+  margin-top: 25px;
+  padding-top: 30px;
+  padding-left: 0%;
+}
+.page-text{
+  margin-left: 80px;
+  margin-top: 60px;
+}
+.images1, .images2{
+  display: flex;
+  padding-top: 50px;
+  margin-left: 80px;
+  gap: 35px;
+}
+.images2{
+  margin-bottom: 150px;
+}
+.container{
+  display: flex;
+  background-color: #FBFBFB;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin: 50px;
+  justify-content: center;
+}
+.project-text{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+.contact-page{
+  display: flex;
+}
+.info{
+  padding-top: 30px;
+  margin-bottom: 200px;
+}
+.map{
+  height: 75vh;
+  width: 72.2vw;
+  padding-left: 250px;
+}
+.page-headings{
+  margin-left: 50px;
+}
+.container3, .container4{
+  position: relative;
+  margin: 50px;
+  justify-content: space-between;
+}
+.container3-body{
+  display: flex;
+  margin: 50px;
+}
+.main-text{
+  padding-left: 50px;
+  padding-right: 40px;
+}
+.body1{
+  display: flex;
+  margin-left: 60px;
+}
+.body2{
+  display: flex;
+  margin-left: 140px;
+}
+.project-cont1, .project-cont2{
+  display: flex;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  gap: 30px;
+}
+.overlay-text{
+  position: absolute;
+  color: #FFFFFF;
+  background-color: rgba(14, 14, 14, 0.5);
+  width: 570px;
+  height: 255px;
+  font: ROBOTO;
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 80px;
+  padding-top: 40px;
+  line-height: 1;
+  gap: 0%;
+}
+#all-projects{
+  margin-left: 938px;
+}
+.container5{
+  position: relative;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-bottom: 180px;
+  justify-content: space-between;
+}
+.form{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.formbox{
+  background-color: #F3F3F3;
+  margin: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  width: 300px;
+}
+.contact-form{
+  display: flex;
+  margin-top: 10px;
+}
+.pic{
+  margin-right: 80px;
+  margin-left: 80px;
+}
